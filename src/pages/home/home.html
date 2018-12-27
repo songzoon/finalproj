@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>MyApp</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-card class="card-background-page">
+    
+    <img src="assets/imgs/img_song2.jpg"/>
+    <div class="card-title"></div>
+    <div class="card-subtitle"></div>
+  </ion-card>
+
+  <ion-item>
+    <ion-label floating >ชื่อผู้ใช้</ion-label>
+    <ion-input type="text" [(ngModel)]="username"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating >รหัสผ่าน</ion-label>
+    <ion-input type="password" [(ngModel)]="password"></ion-input>
+  </ion-item>
+  <button ion-button block (click)="signIn(username,password)" ><ion-icon name="log-in"></ion-icon>&nbsp;&nbsp; เข้าสู่ระบบ</button>
+  <h3>{{loginResult}}</h3>
+</ion-content>
