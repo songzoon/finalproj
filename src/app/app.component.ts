@@ -1,3 +1,5 @@
+import { TvOnTheAirPage } from './../pages/tv-on-the-air/tv-on-the-air';
+
 
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
@@ -32,7 +34,8 @@ export class MyApp {
       { title: 'List', component: ListPage, icon: 'md-finger-print' },
       { title: 'Scanner', component: BarcodeScannerPage, icon: 'md-finger-print' },
       { title: 'Map', component: GMapPage, icon: 'md-finger-print' },
-      { title: 'JsonMenu', component: JsonMenuPage, icon: 'md-finger-print' }
+      { title: 'JsonMenu', component: JsonMenuPage, icon: 'md-finger-print' },
+      { title: 'TVOnTheAir', component: TvOnTheAirPage, icon: 'md-finger-print' }
     ];
 
   }

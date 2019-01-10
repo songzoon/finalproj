@@ -1,3 +1,4 @@
+
 import { JsonMenuPage } from './../pages/json-menu/json-menu';
 import { GMapPage } from './../pages/g-map/g-map';
 import { BarcodeScannerPageModule } from './../pages/barcode-scanner/barcode-scanner.module';
@@ -17,6 +18,7 @@ import { SMS } from '@ionic-native/sms'; // import plugin SMS
 import { BarcodeScanner } from '@ionic-native/barcode-scanner';  // import plugin BarcodeScanner
 import { Geolocation } from '@ionic-native/geolocation';  // import plugin geolocation
 import { HttpClientModule } from '@angular/common/http'   // import JASON Array 
+import { TvOnTheAirPage } from '../pages/tv-on-the-air/tv-on-the-air';
 
 
 @NgModule({
@@ -27,7 +29,8 @@ import { HttpClientModule } from '@angular/common/http'   // import JASON Array
     SocialInfoPage,
     BarcodeScannerPage,
     GMapPage,
-    JsonMenuPage
+    JsonMenuPage,
+    TvOnTheAirPage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,8 @@ import { HttpClientModule } from '@angular/common/http'   // import JASON Array
     SocialInfoPage,
     BarcodeScannerPage,
     GMapPage,
-    JsonMenuPage
+    JsonMenuPage,
+    TvOnTheAirPage
   ],
   providers: [
     StatusBar,
