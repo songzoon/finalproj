@@ -1,0 +1,30 @@
+<!--
+  Generated template for the TvOnTheAirDetailPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{contact.original_name}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+    <h1>{{contact.original_name}}</h1>
+    <h5><ion-icon name="md-star-outline"></ion-icon> {{contact.vote_average}}</h5>
+    <p>{{contact.first_air_date}}</p>
+    <img src="https://image.tmdb.org/t/p/original/{{contact.poster_path}}" width="185" height="278">
+
+    <p>Detail : {{contact.overview}} </p>
+
+    
+
+    
+    
+
+</ion-content>
